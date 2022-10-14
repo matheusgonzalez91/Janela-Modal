@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(226, 10, 10);
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.flex-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 15px 0;
+    color: white;
+}
+
+nav.menu-desktop ul{
+    list-style-type: none;
+}
+
+nav.menu-desktop li{
+    display: inline-block;
+    padding: 23px 0;
+}
+
+nav.menu-desktop a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}

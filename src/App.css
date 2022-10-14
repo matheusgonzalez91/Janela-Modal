@@ -1,0 +1,51 @@
+.buttonClicks{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 190%);
+  text-align: center;
+}
+
+.textP{
+  color: black;
+  font-size: 41px;
+}
+
+.modal-button{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70%);
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: blue;
+  border: 0;
+  margin: 10px auto;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: ease-in 0.5s;
+}
+
+.buttonAdd:hover{background-color: red;}
+
+.close-button{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70%);
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border: 0;
+  margin: 10px auto;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: ease-in 0.5s;
+  margin-left: 10px;
+}
+
+.close-button:hover{background-color: red;}
